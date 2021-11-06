@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>GhostChain NFT Demo</title>
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">GhosTCHain</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="single.html">List</a></li>
+                  <li class="active"><a href="mint.html">Mint</a></li>
+                  <li>
+                    <button class="btn btn-info" id="connectBtn">
+                      Connect
+                    </button>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Create your NFT!</h1>
+            <div class="row">
+              <div class="col-md-12" id="drawContainer" style="height: 100%">
+                <img
+                  id="canvas"
+                  name="canvas"
+                  width="250"
+                  height="250"
+                  style="border: 1px solid lightgrey"
+                />
+              </div>
+            </div>
+            <div><p id="timer"></p></div>
+            <div class="row">
+              <div class="col-md-11">
+                <input
+                  type="file"
+                  id="fileInput"
+                  name="fileInput"
+                  accept="image/*,.pdf"
+                />
+              </div>
+              <div class="col-md-1">
+                <button class="btn btn-info" id="picturebtn">
+                  Save Picture!
+                </button>
+              </div>
+            </div>
+            <div class="row"><a href="#" id="ipfsurl" target="_blank"></a></div>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>
+                This is a Demo
+                <a href="https://t.me/secureminta">Secure Mint</a>, by
+                <a href="https://t.me/secureminta">@secureminta</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

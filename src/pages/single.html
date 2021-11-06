@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>GhostChain NFT Demo</title>
+    <style>
+      html {
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        margin: 0px;
+        min-height: 100%;
+        width: 100%;
+      }
+
+      .container {
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">GhostChain NFT MArketplace</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="#">Home</a></li>
+                  <li class="active"><a href="single.html">List</a></li>
+                  <li><a href="mint.html">Mint</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <div class="row" style="margin-bottom: 10px">
+              <div class="col-md-12">
+                <div class="row" style="margin-bottom: 15px">
+                  <div class="btn-group" role="group">
+                    <button
+                      id="specimenDropdown"
+                      type="button"
+                      class="btn btn-default dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Select specimen
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" id="options"></ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div id="drawContainer">
+                    <canvas
+                      id="canvas"
+                      name="canvas"
+                      width="800"
+                      height="400"
+                      style="border: 1px solid lightgrey"
+                    >
+                      Your browser does not support the HTML5 canvas tag.
+                    </canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>
+                This is a Demo
+                <a href="https://t.me/secureminta">Secure Mint</a>, by
+                <a href="https://t.me/secureminta">@secureminta</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
